@@ -1,4 +1,4 @@
-package br.grupointegrado.flappyBird.desktop;
+package br.grupointegrado.flappyBird;
 
 import com.badlogic.gdx.Screen;
 
@@ -15,10 +15,4 @@ public abstract class TelaBase implements Screen {
         this.game = game;
     }
 
-
-    @Override
-    public void hide() {
-
-
-    }
 }
