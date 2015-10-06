@@ -5,6 +5,7 @@ import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.physics.box2d.World;
 
 import br.grupointegrado.flappyBird.MainGame;
+import br.grupointegrado.flappyBird.TelaBase;
 
 /**
  * Created by Rhuan Coltre on 28/09/2015.
@@ -43,6 +44,11 @@ public class TelaJogo extends TelaBase {
 
     @Override
     public void resume() {
+
+    }
+
+    @Override
+    public void hide() {
 
     }
 
